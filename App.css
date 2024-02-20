@@ -1,0 +1,46 @@
+.container {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .loginBox {
+  background: rgb(24, 24, 24);
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.signupBtn{
+  height: 60px;
+  width: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  border-radius: 100px;
+  margin: 20px;
+  opacity: 80%;
+
+}
+.or{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  opacity: 30%;
+}
+.loginBtn{
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 60px;
+  width: 150px;
+  border-radius: 100px;
+  font-size: larger;
+  opacity: 80%;
+}
